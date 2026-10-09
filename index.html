@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Manager Parole pentru Windows și Android: seif local criptat, backup și sincronizare opțională cu Google Drive.">
+  <meta name="referrer" content="no-referrer">
+  <title>Manager Parole</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#continut">Sari la conținut</a>
+  <div class="shell">
+    <header class="header">
+      <a class="brand" href="index.html"><img src="favicon.svg" alt="" width="38" height="38">Manager Parole</a>
+      <nav aria-label="Navigare principală"><a href="index.html" aria-current="page">Acasă</a><a href="privacy.html">Confidențialitate</a><a href="terms.html">Termeni</a></nav>
+    </header>
+    <main id="continut" class="page" tabindex="-1">
+      <img class="hero-icon" src="favicon.svg" alt="Scut cu cheie" width="72" height="72">
+      <p class="eyebrow">Windows + Android · Local-first</p>
+      <h1>Manager Parole</h1>
+      <p class="intro">Parolele și informațiile tale importante, într-un seif local criptat. Cu backupuri sub controlul tău și sincronizare opțională între calculator și telefon.</p>
+      <div class="badges" aria-label="Caracteristici"><span class="badge">Seif criptat</span><span class="badge">Fără reclame</span><span class="badge">Google Drive opțional</span></div>
+      <div class="features">
+        <section class="feature"><h2>Seif local</h2><p>Stochează parole, conturi, note și câmpuri personalizate pe dispozitiv. Datele seifului sunt criptate și se deschid după deblocare.</p></section>
+        <section class="feature"><h2>Windows și Android</h2><p>Folosește seiful pe calculator și telefon. Pe Android, biometria poate debloca seiful dacă este disponibilă și configurată.</p></section>
+        <section class="feature"><h2>Sincronizare Google Drive</h2><p>Conectarea este opțională. Prin permisiunea limitată <code>drive.file</code>, aplicația sincronizează propriul document criptat în contul tău Google.</p></section>
+        <section class="feature"><h2>Backup și restore</h2><p>Exportă snapshoturi criptate în fișiere <code>.pvbackup</code> și restaurează copia aleasă. Backupul manual este separat de fișierul curent de sincronizare.</p></section>
+      </div>
+      <section class="section"><h2>Securitate, cu limite explicite</h2><p>Manager Parole folosește Argon2id și AES-256-GCM pentru protejarea datelor. Parola principală nu este trimisă la Google. Sincronizarea trimite conținutul seifului numai în formă criptată, fără un server propriu al dezvoltatorului.</p><p>Nu vindem datele utilizatorului, nu afișăm reclame și nu folosim datele Google pentru publicitate. Aplicația și acest site nu includ analytics sau tracking implementat de dezvoltator.</p></section>
+      <aside class="notice"><p><strong>Păstrează parola principală și backupurile.</strong> Criptarea nu înlocuiește copiile de siguranță. Pierderea parolei poate face datele nerecuperabile.</p></aside>
+      <section class="contact" id="contact"><h2>Contact dezvoltator</h2><p><strong>Ardelean Laurean</strong></p><p>E-mail: <a href="mailto:ardelean.laurean@gmail.com">ardelean.laurean@gmail.com</a></p><p class="small">Pentru suport, nu trimite parole, tokenuri sau conținutul seifului.</p></section>
+      <details lang="en"><summary>English overview</summary><p>Manager Parole is a local-first password manager for Windows and Android. Vault data is encrypted. Optional Google Drive synchronization uses the limited <code>drive.file</code> scope and stores encrypted vault content only. The master password is not sent to Google. The app has no developer-operated data server, ads or built-in analytics. Encrypted backups remain under the user's control.</p></details>
+    </main>
+    <footer class="footer"><span>Manager Parole · Datele tale, sub controlul tău.</span><div class="footer-links"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></div></footer>
+  </div>
+</body>
+</html>
